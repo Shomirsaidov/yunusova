@@ -35,8 +35,8 @@
                 class="p-2 border-2 mb-4 rounded-xl text-lg outline-none" placeholder="Осталось выплатить">
 
                 <span>Выплачено :</span>
-                <input type="number" disabled v-model="payed" name="payed" 
-                class="p-2 border-2 mb-4 rounded-xl text-lg outline-none" placeholder="Выплачено">
+                <input type="number" v-model="payed" name="payed" 
+                class="bg-gray-400 p-2 border-4 mb-4 rounded-xl text-lg outline-none" placeholder="Выплачено">
 
 
                 <textarea name="note" v-model="data.note" 
